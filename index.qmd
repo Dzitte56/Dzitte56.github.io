@@ -2,40 +2,41 @@
 title: "Dominik Zittel"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: Profile-picture.png
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/dominik-zittel-0b391320a/
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://www.instagram.com/dominik_zittel/
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/Dzitte56/Dzitte56.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: Resume.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:djz2@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Dominik Zittel majors in Business Administration at SUNY Geneseo. When not working on data analytics, Dominik enjoys spending time playing pick up sports with his friends.
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+B.S. in Business Administration | Aug 2020 - May 2024 <br>
+Minor in Marketing 
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+PGA championship | Marketing Team Intern | March 2023 - May 2023 <br>
+Cragburn GOlf CLub | Bagroom Employee | September 2016 - present
 
 

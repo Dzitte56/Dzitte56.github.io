@@ -3,7 +3,7 @@
     "path": "~/Documents/Dzitte56.github.io/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2292062427",
     "contents": "",
     "dirty": false,
     "created": 1701203472610.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "38,63",
-        "scrollLine": "24"
+        "cursorPosition": "41,0",
+        "scrollLine": "25"
     },
     "folds": "",
-    "lastKnownWriteTime": 1701203682,
+    "lastKnownWriteTime": 1702257949,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1701203682115,
+    "last_content_update": 1702257949911,
     "read_only": false,
     "read_only_alternatives": []
 }

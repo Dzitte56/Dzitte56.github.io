@@ -11,13 +11,15 @@ website:
         href: project.qmd
       - text: Blog
         href: blog-listing.qmd
+      - text: Classwork
+        href: Classwork.qmd
   page-footer: 
-    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
+    center: "Powered with GitHub and Quarto<br>© Dominik Zittel, 2023"
 
 format:
   html:
     theme: 
-      light: flatly
+      light: journal
       dark: darkly
     mainfont: system-ui; 
     highlight-style: atom-one
