@@ -94,7 +94,7 @@ ggplot(average_score_by_boro, aes(x = BORO, y = Overall_AVG_SCORE, fill = BORO))
   scale_x_discrete(labels = scales::wrap_format(10))
 ```
 ## Analysis 
-
+- This bar chart exemplifies the relationship between each Borough in NYC on the x-axis and the overall average score on the y-axis. The average score is based on DBA (Doing Business As) entities. The overall average scores in decreasing order went as follows: Queens, Bronx, Staten Island, Brooklyn, Manhattan. Queens had the highest DBA average score of 11.2 and Manhattan had the lowest average at a score of 10.4
 
 
 ## Amount of `CRITICAL` `CRITICAL FLAG` by `BORO`
@@ -119,7 +119,7 @@ ggplot(critical_flags_by_boro, aes(x = BORO, y = Critical_Flag_Count, fill = BOR
   theme_minimal()
 ```
 ## Analysis
-
+- This bar chart compares the relationship between specific Boroughs in NYC to the total number of critical flags in those Borough. Boroughs being on the x-axis and the critical flag variable on the y-axis. The critical flag score represents the restaurants that had an indicator of critical violation. Each critical flag counts once towards the total for the Borough it is geographically located in. The order in decreasing totals was: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had the most critical flags at a total of 3464 which will be looked at later as Manhattan has a lot more restaurants than some of the others. While Staten Island had the least amount of critical flags at 333.
 
 
 
@@ -144,7 +144,7 @@ ggplot(a_grades_by_boro, aes(x = BORO, y = A_Grade_Count, fill = BORO)) +
   theme_minimal()
 ```
 ## Analysis
-
+-The bar chart above represents an R code used to manipulate data as well as visualize it. This manipulation is done so to exemplify the amount of restaurants that received a grade A from their inspection and summarizes and ranks each Borough based on their total number of "A" grades. With this manipulation all other grades are voided because the only desired grade for this bar chart is "A". The ranking of Boroughs by total number of grade A's from most to least is as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had by far the most with 6382 again partially due to the sheer amount of restaurants in the Borough. Staten Island had the least amount of Grade A restaurant inspections with 645.
 
 
 
