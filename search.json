@@ -410,7 +410,7 @@
     "href": "project.html#analysis-2",
     "title": "DANL Project",
     "section": "2.10 Analysis",
-    "text": "2.10 Analysis\n-The bar chart above represents an R code used to manipulate data as well as visualize it. This manipulation is done so to exemplify the amount of restaurants that received a grade A from their inspection and summarizes and ranks each Borough based on their total number of “A” grades. With this manipulation all other grades are voided because the only desired grade for this bar chart is “A”. The ranking of Boroughs by total number of grade A’s from most to least is as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had by far the most with 6382 again partially due to the sheer amount of restaurants in the Borough. Staten Island had the least amount of Grade A restaurant inspections with 645."
+    "text": "2.10 Analysis\n-The bar chart above represents an R code used to manipulate data as well as visualize it. This manipulation is done so to exemplify the amount of restaurants that received a grade A from their inspection and summarizes and ranks each Borough based on their total number of “A” grades. With this manipulation all other grades are voided because the only desired grade for this bar chart is “A”. Boroughs are represented on the x-axis as the y-axis represents number of total Grade A inspections in the specific Borough. The ranking of Boroughs by total number of grade A’s from most to least is as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had by far the most with 6382 again partially due to the sheer amount of restaurants in the Borough. Staten Island had the least amount of Grade A restaurant inspections with 645."
   },
   {
     "objectID": "project.html#total-number-of-c-grade-by-boro",
@@ -431,7 +431,7 @@
     "href": "project.html#analysis-3",
     "title": "DANL Project",
     "section": "2.13 Analysis",
-    "text": "2.13 Analysis"
+    "text": "2.13 Analysis\n\nA very similar example to the chart above. This chart instead of using data manipulation to find grade A inspection, we are looking to exemplify the inspections that recieved a “C” grade. The x-axis continues to represent the Boroughs of NYC and the y-axis this time represents the total number of restaurants that received a “C” grade in those Boroughs. No other grades are accounted for in this chart as they are dismissed. The ranking from most to least are as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had a total of 97 which was the most and Staten Island had least amount of DBA’s with a a inspection grade of “C” with 5."
   },
   {
     "objectID": "project.html#proportion-of-c-grade-dba-in-each-boro",
