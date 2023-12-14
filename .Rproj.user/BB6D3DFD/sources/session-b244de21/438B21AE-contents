@@ -1,13 +1,13 @@
 ---
 title: DANL Project
-subtitle: "DANL 200 Final Project"
+subtitle: "DANL 200 Dataset Analyzation "
 author: 
-  - Dominik Zittel
-  - Noah Olson
-  - Andrew Sarafin
   - Jayden Balcarczyk
-  - Lucas Rosa
+  - Andrew Sarafin
   - Andrew VanDyk
+  - Dominik Zittel
+  - Lucas Rosa
+  - Noah Olsen
 
 toc: true
 toc-title: "Table of Contents"
@@ -23,12 +23,15 @@ execute:
 
 from: markdown+emoji
 ---
+
 ```{r setup}
 #| include: false
 library(tidyverse)
 library(skimr)
 library(ggthemes)
 library(hrbrthemes)
+library(dplyr)
+
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -43,8 +46,6 @@ theme_set(theme_ipsum()+
                 )
           )
 ```
-
-
 
 # Introduction
 
