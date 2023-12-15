@@ -1,13 +1,13 @@
 ---
 title: DANL Project
-subtitle: "DANL 200 Final Project"
+subtitle: "DANL 200 Dataset Analyzation "
 author: 
-  - Dominik Zittel
-  - Noah Olson
-  - Andrew Sarafin
   - Jayden Balcarczyk
-  - Lucas Rosa
+  - Andrew Sarafin
   - Andrew VanDyk
+  - Dominik Zittel
+  - Lucas Rosa
+  - Noah Olsen
 
 toc: true
 toc-title: "Table of Contents"
@@ -23,12 +23,15 @@ execute:
 
 from: markdown+emoji
 ---
+
 ```{r setup}
 #| include: false
 library(tidyverse)
 library(skimr)
 library(ggthemes)
 library(hrbrthemes)
+library(dplyr)
+
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -43,8 +46,6 @@ theme_set(theme_ipsum()+
                 )
           )
 ```
-
-
 
 # Introduction
  - Throughout the semester, we learned several ways to analyze and depict data that may seem confusing at a first glance. We found the "restaurant" data set to be a great data set to use due to the depth and complexity of the information. Looking at the code we provided to analyze the data, we used a variety of different methods to describe the data as best as possible. We started with the skim function for some general information and organization. Next, we found the average scores of the restaurants among the different boroughs. By narrowing down the important boroughs, we then created several ggplot graphs including several bar charts to visualize the information provided. After in depth analytically procedures and visualization, we came to the conclusion that Manhattan has the overall best cuisine.
@@ -144,7 +145,7 @@ ggplot(a_grades_by_boro, aes(x = BORO, y = A_Grade_Count, fill = BORO)) +
   theme_minimal()
 ```
 ## Analysis
-- The bar chart above represents an R code used to manipulate data as well as visualize it. This manipulation is done so to exemplify the amount of restaurants that received a grade A from their inspection and summarizes and ranks each Borough based on their total number of "A" grades. With this manipulation all other grades are voided because the only desired grade for this bar chart is "A". Boroughs are represented on the x-axis as the y-axis represents number of total Grade A inspections in the specific Borough. The ranking of Boroughs by total number of grade A's from most to least is as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had by far the most with 6382 again partially due to the sheer amount of restaurants in the Borough. Staten Island had the least amount of Grade A restaurant inspections with 645.
+-The bar chart above represents an R code used to manipulate data as well as visualize it. This manipulation is done so to exemplify the amount of restaurants that received a grade A from their inspection and summarizes and ranks each Borough based on their total number of "A" grades. With this manipulation all other grades are voided because the only desired grade for this bar chart is "A". Boroughs are represented on the x-axis as the y-axis represents number of total Grade A inspections in the specific Borough. The ranking of Boroughs by total number of grade A's from most to least is as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had by far the most with 6382 again partially due to the sheer amount of restaurants in the Borough. Staten Island had the least amount of Grade A restaurant inspections with 645.
 
 
 ## Total number of C `GRADE` by `BORO`
